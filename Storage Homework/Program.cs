@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -75,20 +75,23 @@ namespace ConsoleApp10
             {
                 Capacity = 500,
                 Model = "Flash",
-                ModelName = "Adobe"
-            };
+                ModelName = "Adobe",
+               InformationCapacity = 210
+           };
             Storage.Storage HDD = new HDD.HDD
             {
                 Capacity = 500,
                 Model = "HDD",
-                ModelName = "Samsung"
+                ModelName = "Samsung",
+                InformationCapacity = 800
 
             };
             Storage.Storage DVD = new DVD.DVD
             {
                 Capacity = 890,
                 Model = "DVD",
-                ModelName = "Adobe"
+                ModelName = "Adobe",
+                InformationCapacity = 300
             };
 
             Console.WriteLine("1) For Look DVD");
@@ -119,5 +122,3 @@ namespace ConsoleApp10
     #endregion
 
 }
-
-
